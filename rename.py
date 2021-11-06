@@ -20,7 +20,7 @@ def main():
             # rename all the files
             os.rename(os.path.join(path, filename),  os.path.join(Destination, dst))  
     except:
-        print("HA OCURRIDO UN ERROR.")
+        print("HA OCURRIDO UN ERROR AL RENOMBRAR.")
 
 # Driver Code
 if __name__ == '__main__':
